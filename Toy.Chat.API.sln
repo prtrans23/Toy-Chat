@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Chat.API", "Toy.Chat.API\Toy.Chat.API.csproj", "{15E98A0D-09FA-49DA-A6CC-0B0AC7133758}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A75D5E23-46EB-4866-B651-E7D9AF807314}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8A0C4A61-B3F3-4999-A00C-FA5AD8784FF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Chat.API.Test", "Toy.Chat.API.Test\Toy.Chat.API.Test.csproj", "{693F9B27-CBD6-4DF5-8A37-6C7B4351C704}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15E98A0D-09FA-49DA-A6CC-0B0AC7133758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E98A0D-09FA-49DA-A6CC-0B0AC7133758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E98A0D-09FA-49DA-A6CC-0B0AC7133758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E98A0D-09FA-49DA-A6CC-0B0AC7133758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693F9B27-CBD6-4DF5-8A37-6C7B4351C704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693F9B27-CBD6-4DF5-8A37-6C7B4351C704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693F9B27-CBD6-4DF5-8A37-6C7B4351C704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693F9B27-CBD6-4DF5-8A37-6C7B4351C704}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15E98A0D-09FA-49DA-A6CC-0B0AC7133758} = {A75D5E23-46EB-4866-B651-E7D9AF807314}
+		{693F9B27-CBD6-4DF5-8A37-6C7B4351C704} = {8A0C4A61-B3F3-4999-A00C-FA5AD8784FF2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66148516-3DC1-44BA-9926-CD684D276C0F}
+	EndGlobalSection
+EndGlobal
