@@ -1,0 +1,18 @@
+{
+  "ChatRoom": [
+    [
+      {
+        "roomId": 1,
+        "roomName": "ChatRoom1"
+      },
+      1
+    ],
+    [
+      {
+        "roomId": 2,
+        "roomName": "ChatRoom2"
+      },
+      0
+    ]
+  ]
+}

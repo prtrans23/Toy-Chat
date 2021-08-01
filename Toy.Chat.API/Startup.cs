@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Toy.Chat.Domain.Managers;
+using Toy.Chat.Domain.Services;
 
 namespace Toy.Chat.API
 {
@@ -26,6 +28,8 @@ namespace Toy.Chat.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IChatRoomManager, ChatRoomManager>();
+            services.AddScoped<IChatRoomService, ChatRoomService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
