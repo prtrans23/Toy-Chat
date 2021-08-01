@@ -10,6 +10,8 @@ using Xunit;
 
 namespace Toy.Chat.API.Test
 {
+    // https://samlearnsazure.blog/2021/01/05/code-coverage-in-github-with-net-core/
+
     // https://docs.microsoft.com/ko-kr/aspnet/core/test/integration-tests?view=aspnetcore-5.0
     public class RoomBehaviourTests
         : IClassFixture<WebApplicationFactory<Startup>>
