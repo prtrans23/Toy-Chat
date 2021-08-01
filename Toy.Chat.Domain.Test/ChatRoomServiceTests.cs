@@ -1,9 +1,9 @@
 using System;
 using Xunit;
 
-namespace Toy.Chat.API.Test
+namespace Toy.Chat.Domain.Test
 {
-    public class UnitTest1
+    public class ChatRoomServiceTests
     {
         [Fact]
         public void Test1()
