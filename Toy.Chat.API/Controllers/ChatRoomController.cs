@@ -39,6 +39,7 @@ namespace Toy.Chat.API.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> AddRoom(string roomName)
         {
+            // Test
             try
             {
                 await chatRoomService.AddRoomAsync(roomName);
