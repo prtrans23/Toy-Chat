@@ -33,4 +33,3 @@ jobs:
       uses: coverallsapp/github-action@master   
       with:
         github-token: UCEY2CcPA676Oi9nuvcwxE09TCaQVkZOT 
-        path-to-lcov: FeatureFlags/FeatureFlags.Tests/TestResults/coverage.info 
