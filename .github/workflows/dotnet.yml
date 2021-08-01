@@ -8,9 +8,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET
@@ -23,16 +21,3 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Codecov
-      uses: codecov/codecov-action@v2.0.2
-      with:
-        token: 08d4f031-43d1-4be5-b798-8913d3fcc9a7
-    - name: Run automated unit and integration tests
-      run: |
-        cd ./
-        dotnet test /p:CollectCoverage=true /p:CoverletOutput=TestResults/ /p:CoverletOutputFormat=lcov
-    - name: Publish coverage report to coveralls.io   
-      uses: coverallsapp/github-action@master
-      with:
-        github-token: UCEY2CcPA676Oi9nuvcwxE09TCaQVkZOT
-        path-to-lcov: ./TestResults/lcov.info
